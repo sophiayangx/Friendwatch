@@ -16,7 +16,7 @@ import QuestionScreen from './QuestionScreen';
 import SummaryScreen from './SummaryScreen';
 import EditScreen from './EditScreen';
 import ProfileScreen from './ProfileScreen';
-import MapScreen from './MapScreen';
+import MapScreen from './mapScreen';
 
 export const stackNav = StackNavigator({
   Choose: { screen: ChooseScreen, navigationOptions: { header: null }  },
